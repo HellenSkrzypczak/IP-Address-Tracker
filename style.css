@@ -40,3 +40,15 @@
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.30);
 }
 .header-action > button > img { height: 8px; padding-bottom:2px; }
+
+.result-ip-adress {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.result-ip-adress > div {
+    background-color: antiquewhite;
+    padding: 2rem;
+}
