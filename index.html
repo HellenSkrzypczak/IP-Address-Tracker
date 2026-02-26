@@ -11,35 +11,39 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@200..900&display=swap">
 </head>
 <body>
-  <header class="header-search">
-    <div>
-      <h1>IP Address Tracker</h1>
-      <div class="header-action">
-        <input type="text" placeholder="  Search for any IP address or domain">
-        <button><img src="images/icon-arrow.svg" alt="Icon de seta para direita"></button>
+  <div class="container">
+    <header class="header-search">
+      <div>
+        <h1>IP Address Tracker</h1>
+        <div class="header-action">
+          <input type="text" placeholder="  Search for any IP address or domain">
+          <button><img src="images/icon-arrow.svg" alt="Icon de seta para direita"></button>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <div class="result-ip-adress">
-    <div>
-      <small>IP Address</small>
-    </div>
+    <div class="result-ip-adress">
+      <div class="info">
+        <small>IP Address</small>
+        <p>468.135.468.468</p>
+      </div>
 
-    <div>
-      <small>Location</small>
-    </div>
+      <div class="info border">
+        <small>Location</small>
+        <p>Xaxim, SC xxxx</p>
+      </div class="info">
 
-    <div>
-      <small>Timezone</small>
-      <span>UTC</span>
-    </div>
+      <div class="info border">
+        <small>Timezone</small>
+        <p>UTC</p>
+      </div>
 
-    <div>
-      <small>ISP</small>
-    </div>
-  </div>  
-
+      <div class="info border">
+        <small>ISP</small>
+        <p>XXx XXXX</p>
+      </div>
+    </div>  
+  </div>
   <div class="container-map"></div>
 </body>
 </html>
